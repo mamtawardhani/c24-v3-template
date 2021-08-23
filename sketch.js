@@ -50,11 +50,29 @@ function draw() {
 
   playerArcher.display();
 
-  for (var i = 0; i < playerArrows.length; i++) {
-    if (playerArrows[i] !== undefined) {
-      playerArrows[i].display();
-    }
-  }
+   // for (var i; i < playerArrows.length; i++) {
+   //   if (playerArrows[i] !== undefined) {
+   //     playerArrows[i].display();
+   //   }
+   // }
+
+   // for (var i = 0, i++) {
+   //   if (playerArrows[i] !== undefined) {
+   //     playerArrows[i].display();
+   //   }
+   // }
+  
+   // for (var i = 0; i < playerArrows.length; i++) {
+   //   if (playerArrows[i] !== undefined) {
+   //     playerArrows[i].display();
+   //   }
+   // }
+
+   // for (var i) {
+   //   if (playerArrows[i] !== undefined) {
+   //     playerArrows[i].display();
+   //   }
+   // }
 
   // Title
   fill("#FFFF");
